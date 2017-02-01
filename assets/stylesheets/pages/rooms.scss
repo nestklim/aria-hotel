@@ -1,0 +1,65 @@
+@import "_bootstrap-variables.sass";
+
+.ba-header__intro--rooms{
+	background: #000 url(../images/bg-rooms.jpg) 50% no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.ba-section-rooms{
+	padding: 60px 0 80px;
+	background: #F2F2F2;
+	text-align: center;
+}
+.ba-room{
+	background: #FFF;
+	padding: 20px 0;
+	text-align: center;
+	margin-bottom: 30px;
+	h3{
+		color: #000;
+		margin-bottom: 25px;
+	}
+	&__priсe{
+		margin-top: 20px;
+		color:  $brand-primary;
+		font-size: 28px;
+		font-weight: 700;
+		line-height: 1;
+	}
+	span{
+		color: #000;
+		font-size: 14px;
+		line-height: 1;
+	}
+	&__text{
+		margin: 25px 30px;
+		padding-top: 25px;
+		border-top: 1px solid $text-color;
+	}
+	img{
+		width: 100%;
+	}
+}
+.pagination{
+	margin: 85px 0 0 0;
+	a{
+		margin: 0 12px;
+		font-size: 20px;
+		&:first-child, &:last-child{
+			margin: 0 25px;
+		}
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+	.ba-next{
+		padding-left: 36px;
+		padding-right: 36px;
+		color: #FFF;
+		background: $brand-primary;
+		&:hover, &:focus{
+			background-color: #43355c;
+			color: #FFF;
+		}
+	}
+}
