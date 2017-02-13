@@ -20,6 +20,12 @@
 
 	});
 
+  $(function(){
+
+    $(".datepicker").datepicker();
+
+  });
+
 	window.onload = function(){
 
         var hotel = {lat: 39.890744, lng: 18.109619};
